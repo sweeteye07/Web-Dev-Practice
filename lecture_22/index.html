@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            width: 100%;
+            border: 2px solid black;
+        }
+        .container{
+            
+            padding: 10px;
+            
+            border: 2px solid grey;
+            width: 50%;
+            background-color: beige;
+            box-shadow: 5px 5px 5px 3px;
+            
+
+        }
+        .box{
+            border: 2px solid green;
+            margin: 5px;
+            /* background-color: aquamarine; */
+            padding: 20px;
+            box-shadow: 
+                inset 0 -3em 3em rgb(0 200 0 / 30%), 
+                /* Creates an inner shadow, 3em inwards on the Y-axis, 3em blur radius, in a semi-transparent green color. */
+                0 0 0 2px white,
+                /* Adds a solid white border (2px thick) around the element. */
+                0.3em 0.3em 1em rgb(200 0 0/60%);
+                /* Adds an outer shadow (offset by 0.3em on both axes) with a 1em blur radius in a semi-transparent red. */
+                
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="parent">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor possimus nam nostrum quisquam quia aperiam perspiciatis, velit nobis explicabo, fugit unde dolores. Maiores, recusandae? Sunt vel autem similique pariatur animi alias facilis earum doloremque culpa quibusdam dignissimos saepe atque perspiciatis, voluptatibus fuga officia et reprehenderit, sed velit! Dolorem molestiae, voluptates placeat omnis quas harum sequi provident, neque, est adipisci ex. Quae, earum tempore laboriosam quam mollitia facilis et. Quos, voluptatum quas laboriosam blanditiis modi optio, natus totam mollitia vitae tenetur nam sed! Impedit deleniti odio eveniet similique pariatur assumenda vitae in provident omnis animi? Maiores corrupti eveniet voluptatem iusto.
+            </p>
+            <div class="box">
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis officiis eveniet maxime molestiae pariatur iure voluptates neque eligendi itaque animi!</P>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur sequi numquam sint at assumenda! Qui nemo repellat, asperiores sunt autem culpa, animi deleniti officiis delectus quibusdam ratione facilis itaque eius.</P>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box img{
+    height: 85%;
+    width: 90%;
+    padding: 15px;
+
+}
+.box .des{
+    margin-top: 10px;
+    font-size: large;
+}
